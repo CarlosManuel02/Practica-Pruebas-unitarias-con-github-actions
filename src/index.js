@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello World!, Carlos Manuel Cedeño Barrera 20as22-0018');
+    res.send('Hello World!, Carlos Manuel Cedeño Barrera 2022-0018');
 });
 
 const server = app.listen(port, () => {
