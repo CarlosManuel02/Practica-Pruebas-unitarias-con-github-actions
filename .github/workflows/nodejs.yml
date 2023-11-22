@@ -1,7 +1,7 @@
 name: Node.js Unit Testing
 
 on:
-  push:
+  [push, pull_request]:
     branches:
       - master
 
